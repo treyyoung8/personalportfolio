@@ -1,8 +1,9 @@
-body{
+body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -48,20 +49,25 @@ body{
     align-content: center;
     align-items: center;
     background-color: orange;
+
+
 }
 .MainTitle img {
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
     
 }
 
 .MainBody {
     background-color: limegreen;
-
+    padding: 20px;
 }
 
 .about {
-    background-color: blue;
+    background-color: lightblue;
+    padding: 20px;
 }
 
 .projects {
@@ -87,8 +93,8 @@ body{
 }
 
 .imgproject {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 100%;
 }
 
 .contacts {
@@ -98,4 +104,10 @@ body{
     justify-content: space-between;
     text-align: center;
     padding: 10px;
+}
+
+.MainTitle img:hover {
+    content: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37214738_10160679643655441_6807176384205553664_o.jpg?_nc_cat=0&oh=ac2935fe6379d0274bd90eef8b1a2375&oe=5BED3276');
+    height: auto;
+    width: 100%;
 }
