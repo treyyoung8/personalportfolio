@@ -1,11 +1,21 @@
+htnl{
+    min-height: 100vh;
+    margin:0;
+}
+
 body {
     width: 100vw;
-    height: 100%;
-    margin: 0px;
+    min-height: 100vh;
+    margin: 0;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
-    background-color: rgb(111, 111, 250);
+    background-image: url(https://image.freepik.com/free-photo/empty-sea-and-beach-background_1339-4265.jpg);
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
@@ -18,7 +28,7 @@ body {
 }
 
 .topnav {
-    background-color: rgb(235, 95, 95);
+    background-color: rgba(55, 207, 245, 0.6);
     overflow: hidden;
 
 }
@@ -30,15 +40,16 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: all 1s ease-out;
 }
 
 .topnav a:hover {
-    background-color: rgb(231, 190, 77);
+    background-color: rgb(231, 190, 77, 0.6);
     color: black;
 }
 
 .topnav a.active {
-    background-color: rgb(135, 223, 138);
+    background-color: rgb(135, 223, 138, 0.6);
     color: white;
 }
 
@@ -59,21 +70,21 @@ body {
     max-width: 40vw;
     max-height: auto;
     
-    
 }
 
 .MainBody {
     padding: 20px;
+    background-color: rgba(128, 128, 128, 0.4);
 
 }
 
 .about {
-
+    background-color: rgba(128, 128, 128, 0.4);
     padding: 20px;
 }
 
 .projects {
-
+    background-color: rgba(128, 128, 128, 0.4);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -106,16 +117,15 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 2vw;
+    background-color: rgba(128, 128, 128, 0.4);
     
-    
-}
-
-.github .talent {
-    color: white;
 }
 
 .MainTitle img:hover {
     content: url('https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37214738_10160679643655441_6807176384205553664_o.jpg?_nc_cat=0&oh=ac2935fe6379d0274bd90eef8b1a2375&oe=5BED3276');
     height: auto;
     width: 100%;
+    transition: all ease-in-out 2s;
 }
+
+
